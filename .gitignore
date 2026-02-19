@@ -1,0 +1,46 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+gre_tracker.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Alembic
+alembic/versions/*.pyc
+
+# Backups
+backups/
+*.sql
+*.db.backup
